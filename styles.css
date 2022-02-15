@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Kanit";
+    src: url(./fonts/Kanit-Regular.ttf);
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #000707;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-images {
+    width: 40vw;
+    display: flex;
+}
+
+.sidebar-images > #bg-img {
+    width: 40vw;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#dark-overlay {
+    margin-top: 20vh;
+    max-height: 100%;
+    width: 40vw;
+    background-color: hsla(171, 50%, 7%, 0.85);
+    color: #e3a7ff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Kanit";
+    letter-spacing: 0.2rem;
+    font-size: 2.7rem;
+}
+
+.content {
+    width: 60vw;
+    color: hsl(172, 70%, 60%);
+    font-family: "Kanit";
+}
+
+#top {
+    width: 75%;
+    margin-top: 12%;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#main-wrapper {
+    
+}
+
+#middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 20%;
+    padding-bottom: 25px;
+    width: 100%;
+    line-height: 2rem;
+    background-color: hsl(180, 36%, 5%);
+    -webkit-box-shadow: 0px 10px 13px -7px hsl(172, 40%, 35%), 0px -2px 13px 0px hsl(172, 40%, 15%); 
+    box-shadow: 0px 10px 13px -7px hsl(172, 40%, 35%), 0px -2px 13px 0px hsl(172, 40%, 15%);
+    margin-bottom: 30px;
+}
+
+#bottom {
+
+}
+
+#top > p:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+#top > p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+#top > p:nth-child(3) {
+
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#middle-content > p:first-of-type {
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+#middle-content > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+
+#bottom-wrapper {
+    padding-left: 50px;
+}
+
+button {
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #b361da;
+    background-color: transparent;
+    border: 2px solid #b361da;
+}
+
+button:hover {
+    background-color: #b361da;
+    color: hsl(174, 61%, 9%);
+}
+
+.input {
+    width: 270px;
+    margin-bottom: 15px;
+    line-height: 1.6rem;
+    font-size: 1.05rem;
+    border-radius: 4px;
+    border: 1px solid hsl(172, 40%, 75%);
+    outline: none;
+    background-color: hsl(180, 100%, 1%);
+    color: hsl(172, 86%, 35%);
+    padding: 2px 4px;
+}
+
+.focus {
+    border: 2px solid hsl(172, 75%, 74%);
+    -webkit-box-shadow: 3px 3px 7px 0px hsla(172, 20%, 22%, 0.705); 
+    box-shadow: 3px 3px 7px 0px hsla(172, 20%, 22%, 0.705);
+}
+
+.error {
+    border: 1px solid rgb(175, 48, 48);
+}
+
+#password-wrapper {
+    position: relative;
+}
+
+.password-error-message {
+    position: absolute;
+    top: 44px;
+    color: rgb(255, 52, 52);
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    line-height: 1rem;
+    margin-bottom: 2px;
+}
+
+a {
+    color: hsl(172, 100%, 72%);
+}
+
+a:hover, a:visited:hover {
+    color: hsl(182, 100%, 53%);
+}
+
+a:visited {
+    color: hsl(172, 94%, 38%);
+}
+
